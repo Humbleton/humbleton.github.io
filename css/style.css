@@ -408,6 +408,9 @@ footer p {
   /* Grid */
   .grid, #section-b ul {
     grid-template-columns: 3fr;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
   }
   .social-buttons {
     margin-top: 200%;
@@ -435,13 +438,30 @@ footer p {
   }
   #second p {
     font-size: 1rem;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
   }
 }
-/* Media Query 350px resolution */
 @media(max-width: 350px) {
+  /* Learn more*/
+  #learn-more {
+    left: 22%; 
+  }
+  /* My current skills are text.... */
+  #skill {
+    font-size: 1em;
+  }
+  /* Box Texts */  
+  #box p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  #box h3 {
+    font-size: 1em;
+  }
+  /* Social Button */
   .social-buttons {
-    margin-top: 300%;
+    margin-top: 330%;
   }
   .icon-button {
     font-size: 1rem;

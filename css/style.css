@@ -375,3 +375,67 @@ footer p {
   margin-top: -1px;
   padding: 1px;
 }
+/* Media Queries */
+@media(max-width: 768px) {
+  /* Showcase */
+  #showcase .container h1 {
+    font-size: 1.1rem;
+  }
+  /*Showcase Container, this code is used to push the text down*/
+  #showcase .container {
+    margin-top: -80px;
+  }
+  .toggle_menu, .sidebar_menu{
+    display: none;
+  }
+  #learn-more {
+    font-size: .9rem;
+    left: 25%;
+  }
+  /* My current skills are text.... */
+  #skill {
+    font-size: 1.1em;
+  }
+  /* Boxes */
+  #box .boxes {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #box .boxes li {
+    font-size: 40px;
+  }
+  /* Grid */
+  .grid, #section-b ul {
+    grid-template-columns: 3fr;
+  }
+  .social-buttons {
+    margin-top: 200%;
+    background-size: inherit;
+  }
+  .icon-button {
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    margin: 0 5px;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    position: relative;
+  }
+  .icon-button i {
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+  }
+  .icon-button:hover span {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin: -1rem;
+  }
+  #second p {
+    font-size: 1rem;
+    font-family: "Open Sans";
+  }
+
+}

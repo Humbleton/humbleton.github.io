@@ -447,7 +447,12 @@ footer p {
   #box .boxes li {
     font-size: 40px;
   }
-  /* Grid */
+  /* About Me Grid */
+  .grid-1, #about-me ul {
+    grid-template-columns: 2fr;
+    text-align: center;
+  }
+  /* My Works Grid */
   .grid, #section-b ul {
     grid-template-columns: 3fr;
     text-align: center;

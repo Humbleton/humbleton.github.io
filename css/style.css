@@ -375,7 +375,18 @@ footer p {
   margin-top: -1px;
   padding: 1px;
 }
-/* Media Queries */
+/* Media Query 1024px resolution */
+@media(max-width: 1024px) {
+  #showcase .container h1 {
+    font-size: 1.4rem;
+  }
+  #learn-more {
+    left: 39%;
+  }
+  .social-buttons {
+    background-size: 1200px 1000px;
+  }
+}
 @media(max-width: 768px) {
   /* Showcase */
   #showcase .container h1 {
@@ -414,7 +425,7 @@ footer p {
   }
   .social-buttons {
     margin-top: 270%;
-    background-size: inherit;
+    background-size: 1000px 900px;
   }
   .icon-button {
     font-size: 1.2rem;

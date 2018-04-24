@@ -452,10 +452,13 @@ footer p {
     grid-template-columns: 2fr;
     text-align: center;
   }
-  #aboutme-text {
-    margin-bottom: 200px;
+  #about-me {
+    margin-bottom: 250px;
   }
-  /* My Works Grid */
+  #self-photo {
+    margin-right: 50px;
+  }
+  /* Grid */
   .grid, #section-b ul {
     grid-template-columns: 3fr;
     text-align: center;

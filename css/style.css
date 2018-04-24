@@ -451,7 +451,9 @@ footer p {
   .grid-1, #about-me ul {
     grid-template-columns: 2fr;
     text-align: center;
-    font-size: 1em;
+  }
+  #aboutme-text {
+    margin-bottom: 200px;
   }
   /* My Works Grid */
   .grid, #section-b ul {
